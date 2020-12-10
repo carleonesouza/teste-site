@@ -16,6 +16,9 @@ body{
     box-shadow: 0 10px 5px #f0e3e3;
 }
 
+#right-navbar{  
+    margin-left: 10%;
+}
 
 .cicle-btn{
     display:inline-block;
@@ -39,14 +42,13 @@ body{
 }
 
 .carousel-item {
-    padding: 5rem;
+    padding: 5rem;    
 }
 .carousel-item img {
-    padding: 5rem;
-    height: auto;
-    width: auto;
-    max-width: 650px;
-    max-height: 650px;
+    height: 550px;
+    width: 550px;
+    max-width: 550px;  
+    max-height: 550px; 
 }
 
 .image-blue-section img{
@@ -75,22 +77,25 @@ body{
     margin: 0;
 }
 #home-image{
-    height: 80vh;  
-    background: url('https://carleonesouza.github.io/teste-site/assets/images/background-home.jpg');
+    height: 90vh;  
+    background: url('https://carleonesouza.github.io/teste-site/assets/images/background-home-min.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1124px) {
     .home-row{
-        padding-top: 10rem;
+        padding-top: 5rem;
        
     }
     #home-image{
-        height: 90vh !important;  
-       
+        height: 90vh !important;   
+    }
+    #home-image{
+        padding-top: 5rem;
+        height: 100vh;  
     }
 }
 @media (max-width: 768px) {
@@ -104,8 +109,7 @@ body{
     .carousel-item img {
         height: auto;
         width: auto;
-        max-width: 100%;
-        max-height: 100%;
+       
     }
     #wrapper-two{
         margin-left: 0;
