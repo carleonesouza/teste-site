@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+
+}
+.navbar{
+    padding: 15px;
+    background-color: #ffffff !important;
+    border: none !important;
+    -webkit-box-shadow: 0 10px 5px #f0e3e3;
+    -moz-box-shadow: 0 10px 5px #f0e3e3;
+    box-shadow: 0 10px 5px #f0e3e3;
+}
+
+
+.cicle-btn{
+    display:inline-block;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin: 5px;
+    background-color: #cccccc;
+}
+.icon {
+    display: inline-block;
+    text-align: center;
+    border-radius: 50px;
+    color: #ffffff;
+    box-sizing: border-box;
+}
+#wrapper-two{
+    margin-left: 50px;
+}
+
+.carousel-item {
+    padding: 5rem;
+}
+.carousel-item img {
+    padding: 5rem;
+    height: auto;
+    width: auto;
+    max-width: 500px;
+    max-height: 500px;
+}
+    
+.image-blue-section img{
+    height: auto;
+}
+.image-blue-section {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    line-height: 90px;
+    background-color: #ffffff;
+}
+
+.socicon:hover{
+    color: #58a5f0 !important;  
+}
+.nav-item :hover{
+    color: #df5b3b !important;
+}
+
+.home-row{    
+    background-color: #486ef6;
+}
+#home-text{
+    color: #ffffff !important;
+    margin: 0;
+}
+#home-image{
+    height: 80vh;  
+    background: url('/assets/images/background-home.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+@media (max-width: 1024px) {
+    .home-row{
+        padding-top: 10rem;
+       
+    }
+    #home-image{
+        height: 90vh !important;  
+       
+    }
+}
+@media (max-width: 768px) {
+    .home-row{
+        padding-top: 10rem;
+       
+    }
+    .carousel-item {
+        padding: unset;
+    }
+    .carousel-item img {
+        height: auto;
+        width: auto;
+        max-width: 100%;
+        max-height: 100%;
+    }
+    #wrapper-two{
+        margin-left: 0;
+    }
+    #section-ig{
+        width: 100% !important;
+        margin-left: 30%;
+    }
+    
+
+}
